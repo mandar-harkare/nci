@@ -1,9 +1,9 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        title: 'Order Details'
+
+    },
+    pt: {
+        title: 'Detalhes da Encomenda'
+    }
+};

@@ -1,8 +1,8 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        gallery: 'Gallery'
+    },
+    pt: {
+        gallery: 'Galeria'
+    }
+};

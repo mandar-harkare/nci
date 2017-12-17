@@ -1,2 +1,2 @@
-lient.js
-lient.js
+import Footer from './Footer';
+export default Footer;

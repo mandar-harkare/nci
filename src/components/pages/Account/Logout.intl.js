@@ -1,8 +1,8 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        header: 'Logging out...'
+    },
+    pt: {
+        header: 'Terminando a sessão...'
+    }
+};

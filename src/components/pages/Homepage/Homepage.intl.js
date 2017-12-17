@@ -1,8 +1,8 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        productsList: 'Featured Products'
+    },
+    pt: {
+        productsList: 'Destaques'
+    }
+};

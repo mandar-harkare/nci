@@ -1,10 +1,10 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        delete: 'Delete',
+        viewURL: 'URL'
+    },
+    pt: {
+        delete: 'Remover',
+        viewURL: 'URL'
+    }
+};

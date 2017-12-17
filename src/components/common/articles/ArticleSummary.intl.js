@@ -1,8 +1,8 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        readMore: 'Read more'
+    },
+    pt: {
+        readMore: 'Ler mais'
+    }
+};

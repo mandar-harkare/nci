@@ -1,8 +1,8 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        update: 'Update'
+    },
+    pt: {
+        update: 'Actualizar'
+    }
+};

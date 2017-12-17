@@ -1,12 +1,12 @@
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
-lient.js
+export default {
+    en: {
+        edit: 'Edit',
+        preview: 'Preview',
+        summary: 'Summary'
+    },
+    pt: {
+        edit: 'Editar',
+        preview: 'Pré-Visualizar',
+        summary: 'Resumo'
+    }
+};
