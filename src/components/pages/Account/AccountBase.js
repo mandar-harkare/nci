@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {RouteHandler} from 'react-router';
 
 // Required components

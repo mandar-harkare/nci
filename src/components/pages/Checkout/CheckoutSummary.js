@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {FormattedMessage, FormattedNumber} from 'react-intl';
 
 // Flux
@@ -22,7 +22,7 @@ import intlData from './CheckoutSummary.intl';
 class CheckoutSummary extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Component Lifecycle ***//

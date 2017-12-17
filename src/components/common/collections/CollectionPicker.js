@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
 // Flux
@@ -20,7 +20,7 @@ let debug = require('debug')('nicistore');
 class CollectionPicker extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
     
     //*** Component Lifecycle ***//

@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 import {Link} from 'react-router';
 
@@ -17,7 +17,7 @@ import intlData from './Pagination.intl';
 class Pagination extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Component Lifecycle ***//

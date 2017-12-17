@@ -3,7 +3,7 @@
  */
 import Debug from 'debug';
 import Express from 'express';
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import Router from 'react-router';
 import Serialize from 'serialize-javascript';
 import {FluxibleComponent} from 'fluxible-addons-react';

@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {FormattedMessage, FormattedNumber} from 'react-intl';
 import {Link} from 'react-router';
 
@@ -19,7 +19,7 @@ import Text from '../typography/Text';
 class ProductListItem extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Initial State ***//

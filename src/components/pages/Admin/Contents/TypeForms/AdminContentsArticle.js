@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
 // Flux
@@ -22,7 +22,7 @@ import intlData from './AdminContentsArticle.intl';
 class AdminContentsArticle extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Initial State ***//

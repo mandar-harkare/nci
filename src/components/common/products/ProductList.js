@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 
 import {slugify} from '../../../utils/strings';
@@ -25,7 +25,7 @@ import intlData from './ProductList.intl';
 class ProductList extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Component Lifecycle ***//

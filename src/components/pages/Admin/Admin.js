@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {RouteHandler} from 'react-router';
 
 import config from '../../../config';
@@ -24,8 +24,8 @@ import intlData from './Admin.intl';
 class Admin extends React.Component {
 
     static contextTypes = {
-        executeAction: React.PropTypes.func.isRequired,
-        getStore: React.PropTypes.func.isRequired
+        executeAction: PropTypes.func.isRequired,
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Page Title and Snippets ***//

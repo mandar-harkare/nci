@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import moment from 'moment';
 import {FormattedMessage, FormattedNumber} from 'react-intl';
 import {Link} from 'react-router';
@@ -27,7 +27,7 @@ import intlData from './OrderDetails.intl';
 class OrderDetails extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Component Lifecycle ***//

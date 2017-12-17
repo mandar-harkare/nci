@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 
 // Flux
 import ApplicationStore from '../../../stores/Application/ApplicationStore';
@@ -18,7 +18,7 @@ let debug = require('debug')('nicistore');
 class ToggleSwitch extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Component Lifecycle ***//

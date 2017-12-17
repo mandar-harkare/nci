@@ -1,7 +1,7 @@
 /**
  * Imports
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import connectToStores from 'fluxible-addons-react/connectToStores';
 import {FormattedMessage} from 'react-intl';
 
@@ -26,8 +26,8 @@ import intlData from './ProductListingPage.intl';
 class ProductListingPage extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired,
-        router: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired,
+        router: PropTypes.func.isRequired
     };
 
     //*** Required Data ***//

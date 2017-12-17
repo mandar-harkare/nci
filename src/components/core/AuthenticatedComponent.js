@@ -1,7 +1,7 @@
 /**
  * Imports.
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 
 // Flux.
 import AccountStore from '../../stores/Account/AccountStore';
@@ -24,9 +24,9 @@ export default (ComposedComponent, scope) => {
     class AuthenticatedComponent extends React.Component {
 
         static contextTypes = {
-            executeAction: React.PropTypes.func.isRequired,
-            getStore: React.PropTypes.func.isRequired,
-            router: React.PropTypes.func.isRequired
+            executeAction: PropTypes.func.isRequired,
+            getStore: PropTypes.func.isRequired,
+            router: PropTypes.func.isRequired
         };
 
         //*** Page Title and Snippets ***//

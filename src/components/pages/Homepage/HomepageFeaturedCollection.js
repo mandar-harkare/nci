@@ -1,7 +1,7 @@
 /**
  * Imports.
  */
-import React from 'react';
+import React from 'react';import PropTypes from 'prop-types';
 import {Link} from 'react-router';
 import {FormattedMessage} from 'react-intl';
 
@@ -17,7 +17,7 @@ import Text from '../../common/typography/Text';
 class HomepageFeaturedCollection extends React.Component {
 
     static contextTypes = {
-        getStore: React.PropTypes.func.isRequired
+        getStore: PropTypes.func.isRequired
     };
 
     //*** Component Lifecycle ***//
