@@ -1,0 +1,71 @@
+{
+  "name": "nicistore",
+  "version": "1.0.0",
+  "description": "NICI Online Storefront",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoonic/nicistore.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf static/dist && webpack --stats --progress --config ./webpack/prod.config.js",
+    "dev": "NODE_ENV=development DEBUG=nicistore node index",
+    "prod": "NODE_ENV=production DEBUG=nicistore node index"
+  },
+  "author": "André Tavares",
+  "engines": {
+    "node": "4.2.5",
+    "npm": "3.5.3"
+  },
+  "dependencies": {
+    "async": "2.6.0",
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "boom": "^7.1.1",
+    "css-loader": "0.28.7",
+    "debug": "3.1.0",
+    "expose-loader": "0.7.4",
+    "express": "^4.16.2",
+    "file-loader": "1.1.6",
+    "fluxible": "1.4.0",
+    "fluxible-addons-react": "0.2.14",
+    "hawk": "^7.0.5",
+    "intl": "1.2.5",
+    "intl-locales-supported": "1.0.0",
+    "keymirror": "latest",
+    "marked": "^0.3.7",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.20.0",
+    "node-sass": "4.7.2",
+    "react": "16.2.0",
+    "react-addons-test-utils": "latest",
+    "react-dom": "^16.2.0",
+    "react-ga": "2.3.5",
+    "react-intl": "2.4.0",
+    "react-router": "4.2.0",
+    "rimraf": "^2.6.2",
+    "sass-loader": "6.0.6",
+    "serialize-javascript": "1.4.0",
+    "style-loader": "0.19.1",
+    "superagent": "3.8.2",
+    "tar": "^4.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "3.2.0",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "strip-loader": "0.1.2",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.7",
+    "webpack-stats-plugin": "0.1.5"
+  }
+}
